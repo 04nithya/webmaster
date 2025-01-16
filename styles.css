@@ -1,0 +1,47 @@
+body {
+    background-color: #B87333;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    padding: 40px;
+    text-align: center;
+    font-size: 21px;
+}
+.navbar {
+    background-color: #231F1D !important; 
+}
+
+.navbar-brand {
+    color: white !important; 
+    font-size: 27px;
+}
+
+.navbar-toggler {
+    color: white !important; 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: white !important; 
+}
+.photobg {
+    width: 100%; 
+    height: auto; 
+    display: block; /* Remove any inline spacing */
+}
+div p {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    background-color: #FBC3BC;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+}
+
+
