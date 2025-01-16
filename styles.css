@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.heading {
+    font-family: 'Sour Gummy', cursive;
+}
+
 h3 {
     padding: 40px;
     text-align: center;
