@@ -34,5 +34,139 @@
                 </div>
             </div>
         </nav>
+        {
+      font-family: Arial, sans-serif;
+      background-color: #f8f1e4;
+      color: #3d3d3d;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f4a261;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .menu-container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .menu-section {
+      margin-bottom: 2rem;
+    }
+    .menu-section h2 {
+      color: #e76f51;
+      border-bottom: 2px solid #e76f51;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #eaeaea;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    .menu-item span {
+      font-weight: bold;
+    }
+    .price {
+      color: #2a9d8f;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #264653;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vegetarian Delights</h1>
+    <p>A Taste of Authentic Indian Cuisine</p>
+  </header>
+
+  <div class="menu-container">
+    <!-- Appetizers -->
+    <div class="menu-section">
+      <h2>Appetizers</h2>
+      <div class="menu-item">
+        <span>Samosa (2 pcs)</span>
+        <span class="price">$4.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Paneer Tikka</span>
+        <span class="price">$8.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Vegetable Pakora</span>
+        <span class="price">$5.99</span>
+      </div>
+    </div>
+
+    <!-- Main Courses -->
+    <div class="menu-section">
+      <h2>Main Courses</h2>
+      <div class="menu-item">
+        <span>Palak Paneer</span>
+        <span class="price">$12.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Chana Masala</span>
+        <span class="price">$10.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Vegetable Biryani</span>
+        <span class="price">$11.99</span>
+      </div>
+    </div>
+
+    <!-- Breads -->
+    <div class="menu-section">
+      <h2>Breads</h2>
+      <div class="menu-item">
+        <span>Naan</span>
+        <span class="price">$2.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Garlic Naan</span>
+        <span class="price">$3.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Roti</span>
+        <span class="price">$2.49</span>
+      </div>
+    </div>
+
+    <!-- Desserts -->
+    <div class="menu-section">
+      <h2>Desserts</h2>
+      <div class="menu-item">
+        <span>Gulab Jamun (2 pcs)</span>
+        <span class="price">$4.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Rasmalai</span>
+        <span class="price">$5.99</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Visit us for an unforgettable dining experience!</p>
+  </footer>
     </body>
 </html>
