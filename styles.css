@@ -4,14 +4,12 @@ body {
     padding: 0;
 }
 
-.heading {
-    font-family: 'Sour Gummy', cursive;
-}
-
 h3 {
     padding: 40px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 21px;
+    font-family: 'Sour Gummy', cursive;
 }
 .navbar {
     background-color: #231F1D !important; 
