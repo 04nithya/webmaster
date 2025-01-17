@@ -38,18 +38,18 @@ header {
       padding: 0.5rem 0;
       border-bottom: 1px solid #eaeaea;
       font-family: 'Sour Gummy', cursive;
-        font-color: white;
+        color: white;
     }
     .menu-item:last-child {
       border-bottom: none;
       font-family: 'Sour Gummy', cursive;
-        font-color: white;
+    color: white;
     }
     .menu-item span {
       font-weight: bold;
     }
     .price {
-      font-color: white;;
+      color: white;;
     }
     footer {
       text-align: center;
