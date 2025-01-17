@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.menu-container {
+    font-family: 'Sour Gummy', cursive;
+}
 h3 {
     padding-left: 40px;
     padding-rightt: 40px;
