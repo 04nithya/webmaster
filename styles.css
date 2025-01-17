@@ -3,9 +3,58 @@ body {
     margin: 0;
     padding: 0;
 }
-.menu-container {
+header {
+      background-color: #f4a261;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .menu-container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
     font-family: 'Sour Gummy', cursive;
-}
+    }
+    .menu-section {
+      margin-bottom: 2rem;
+    }
+    .menu-section h2 {
+      color: #e76f51;
+      border-bottom: 2px solid #e76f51;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #eaeaea;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    .menu-item span {
+      font-weight: bold;
+    }
+    .price {
+      color: #2a9d8f;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #264653;
+      color: white;
+      margin-top: 2rem;
+    }
+
 h3 {
     padding-left: 40px;
     padding-rightt: 40px;
