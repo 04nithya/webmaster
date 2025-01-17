@@ -20,7 +20,6 @@ header {
       background-color: white;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
-    font-family: 'Sour Gummy', cursive;
     }
     .menu-section {
       margin-bottom: 2rem;
@@ -30,6 +29,7 @@ header {
       border-bottom: 2px solid #e76f51;
       display: inline-block;
       margin-bottom: 1rem;
+      font-family: 'Sour Gummy', cursive;
     }
     .menu-item {
       display: flex;
@@ -37,9 +37,11 @@ header {
       align-items: center;
       padding: 0.5rem 0;
       border-bottom: 1px solid #eaeaea;
+      font-family: 'Sour Gummy', cursive;
     }
     .menu-item:last-child {
       border-bottom: none;
+      font-family: 'Sour Gummy', cursive;
     }
     .menu-item span {
       font-weight: bold;
