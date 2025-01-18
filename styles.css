@@ -3,6 +3,12 @@ body {
     margin: 0;
     padding: 0;
 }
+p {
+   line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: 'Sour Gummy', cursive;
+    color: white; 
+}
 header {
       background-color: #f4a261;
       color: white;
