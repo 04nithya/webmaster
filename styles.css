@@ -9,6 +9,12 @@ p {
     font-family: 'Sour Gummy', cursive;
     color: white; 
 }
+
+h2 {
+    color: #e76f51;
+      margin-bottom: 1rem;
+     font-family: 'Sour Gummy', cursive;
+}
 header {
       background-color: #f4a261;
       color: white;
