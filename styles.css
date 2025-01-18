@@ -10,7 +10,7 @@ p {
     color: white; 
 }
 
-h2 {
+.ref-heading {
     font-color: #e76f51;
     margin-bottom: 1rem;
     font-family: 'Sour Gummy', cursive;
