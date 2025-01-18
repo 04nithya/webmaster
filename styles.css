@@ -126,15 +126,18 @@ header h1 {
       color: #e76f51;
       margin-bottom: 1rem;
       text-align: center;
+      font-family: 'Sour Gummy', cursive;
     }
     .about-container p {
       line-height: 1.6;
       margin-bottom: 1rem;
+      font-family: 'Sour Gummy', cursive;
     }
     .about-container ul {
       list-style-type: square;
       padding-left: 20px;
       margin-bottom: 1rem;
+      font-family: 'Sour Gummy', cursive;
     }
     .about-container ul li {
       margin-bottom: 0.5rem;
