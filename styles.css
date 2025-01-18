@@ -147,7 +147,15 @@ header h1 {
     .about-container ul li {
       margin-bottom: 0.5rem;
     }
+    .reference-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #231F1D;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
 
+    }
 h3 {
     padding-left: 40px;
     padding-rightt: 40px;
