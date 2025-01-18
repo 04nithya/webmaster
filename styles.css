@@ -11,9 +11,9 @@ p {
 }
 
 h2 {
-    color: #e76f51;
-      margin-bottom: 1rem;
-     font-family: 'Sour Gummy', cursive;
+    font-color: #e76f51;
+    margin-bottom: 1rem;
+    font-family: 'Sour Gummy', cursive;
 }
 header {
       background-color: #f4a261;
