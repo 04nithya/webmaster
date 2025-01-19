@@ -18,6 +18,44 @@
             text-align: center;
             padding: 20px;
         }
+        nav {
+            background-color: #f2f2f2; 
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+            position: relative;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #D2691E;
+            font-weight: bold;
+        }
+        nav ul li:hover .dropdown {
+            display: block;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown a {
+            color: #D2691E;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown a:hover {
+            background-color: #f1f1f1;
+        }
         section {
             margin: 20px;
             padding: 15px;
@@ -34,14 +72,6 @@
         p {
             line-height: 1.6;
         }
-        a {
-            text-decoration: none;
-            color: #D2691E;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
         footer {
             text-align: center;
             padding: 10px;
@@ -55,6 +85,22 @@
         <img src="RHS Logo (1).png" alt="Ravenwood High School Logo" style="width: 150px;">
         <h1>A Glimpse at Ravenwood High School's Technology Programs!</h1>
     </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">Dropdown Menu</a>
+                <div class="dropdown">
+                    <a href="#">Action</a>
+                    <a href="#">Another action</a>
+                    <a href="#">Something else here</a>
+                </div>
+            </li>
+            <li><a href="Contact Information.html">Contact</a></li>
+        </ul>
+    </nav>
+
     <section>
         <h2>Engineering Programs!</h2>
         <h3>Ravenwood Robotics Class</h3>
@@ -64,6 +110,7 @@
         <h3>Principles of Engineering and Technology Class</h3>
         <p>Students explore various engineering fields such as civil engineering, mechanical engineering, electric systems and engineering, and more through fun and educational hands-on projects!</p>
     </section>
+    
     <section>
         <h2>Computer Science Programs</h2>
         <h3>Coding 1 Class</h3>
@@ -75,9 +122,8 @@
         
         <h3>AP Computer Science A</h3>
         <p>This rigorous college-level course strengthens coding skills in Java through exercises in writing and testing code, covering fundamental programming concepts.</p>
-
-        
     </section>
+    
     <section>
         <h2>Contact Information</h2>
         <p>For inquiries, please contact Ravenwood High School at:</p>
@@ -86,8 +132,9 @@
         <p>Phone: (615) 472-4800</p>
         <p>Fax: (615) 472-4821</p>
     </section>
+    
     <footer>
-        <p>Designed with <i>passion</i> and developed by Saffron Spice | All Rights Reserved</p>
+        <p>@Saffron Spice | All Rights Reserved</p>
     </footer>
 </body>
 </html>
