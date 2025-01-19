@@ -10,6 +10,13 @@ p {
     color: white; 
 }
 
+.off-list {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: 'Sour Gummy', cursive;
+    color: white; 
+}
+
 .ref-heading {
     color: #e76f51;
     margin-bottom: 1rem;
